@@ -129,6 +129,15 @@
 
 
 @media (max-width: 480px) {
+    .hero-section-div {
+        height: 90vh;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+    
     .btn {
         padding: 0.4rem 1rem;
         font-size: var(--text-sm);
@@ -202,3 +211,4 @@
         line-height: 2;
     }
   }
+
