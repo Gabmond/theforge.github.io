@@ -148,7 +148,7 @@ a:hover, a:active {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 
 .hero-section-div {
@@ -216,7 +216,9 @@ a:hover, a:active {
   align-items: stretch;
   flex-direction: column;
   /* gap: 32px; */
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
+  min-height: 80vh;
+  padding: 4rem 1rem;
 }
 
 .about-section h2 {
@@ -227,7 +229,8 @@ a:hover, a:active {
 .about-section-card {
   display: flex;
   justify-content: center;
-  gap: 70px;
+  /* gap: 70px; */
+  /* box-shadow: 4px 4px 20px 7px #0e0e0e; */
 }
 
 .about-section-card .card {
@@ -235,7 +238,7 @@ a:hover, a:active {
   color: var(--grey-tint);
   padding: 20px;
   border-radius: 4px;
-  box-shadow: 4px 4px 20px 7px #0e0e0e;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .about-image-card {
@@ -244,7 +247,6 @@ a:hover, a:active {
   overflow: hidden;
   border-radius: 4px;
   height: 483px;
-  box-shadow: 4px 4px 20px 7px #0e0e0e;
 }
 
 .about-body {
@@ -267,7 +269,6 @@ a:hover, a:active {
 }
 
 
-
 .about-image-card img {
   width: 100%;
   height: 100%;
@@ -279,8 +280,9 @@ a:hover, a:active {
 /* ----- Resume section ----- */
 .resume-section {
   scroll-margin-top: var(--navbar-height);
-  margin-bottom: 15rem;
-  height: 100vh;
+  /* margin-bottom: 15rem; */
+  min-height: 130vh;
+  padding: 4rem 1rem;
 }
 
 .resume-section h2 {
@@ -291,7 +293,7 @@ a:hover, a:active {
 .resume-section-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 86vh;
+  height: 56vh;
   gap: 32px;
 }
 
@@ -316,7 +318,7 @@ a:hover, a:active {
 .contact-section {
   scroll-margin-top: var(--navbar-height);
   min-height: 100vh;
-  background-color: rgba(255, 255, 255, 0.03);
+  /* background-color: rgba(255, 255, 255, 0.03); */
   padding: 6rem 1rem;
   display: flex;
   flex-direction: column;
