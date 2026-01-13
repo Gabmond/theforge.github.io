@@ -217,7 +217,7 @@ a:hover, a:active {
   flex-direction: column;
   /* gap: 32px; */
   /* margin-bottom: 10rem; */
-  min-height: 80vh;
+  min-height: 20vh;
   padding: 4rem 1rem;
 }
 
