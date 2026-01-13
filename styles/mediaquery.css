@@ -1,0 +1,197 @@
+@media (max-width: 900px) {
+    .hero-section {
+        margin-bottom: 5rem;
+    }
+
+    .about-section {
+        margin-bottom: 5rem;
+    }
+
+    .about-section h2 {
+        margin-bottom: 20px;
+    }
+      
+    .about-section-card {
+        gap: 30px;
+    }
+
+    .about-image-card {
+        width: 35%;
+        height: 360px;
+    }
+    .about-body {
+        width: 35%;
+        height: 360px;
+        gap: 5px;
+    }
+
+    .about-body p {
+        font-size: 1.1rem;
+    }
+
+    .resume-section {
+        margin-bottom: 5rem;
+        height: 128vh;
+    }
+}
+
+@media (max-width: 760px) {
+    .nav-toggle {
+        display: block;
+      }
+    
+      .my-navbar-list {
+        position: absolute;
+        top: var(--navbar-height);
+        right: 0;
+        width: 100%;
+        background-color: var(--black);
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        padding: 2rem 0;
+    
+        /* hidden by default */
+        display: none;
+      }
+    
+      .my-navbar-list.active {
+        display: flex;
+    }
+
+    .btn {
+        padding: 1rem 1.2rem;
+        font-size: var(--text-sm);
+    }
+
+    .hero-section-div {
+        align-items: center;
+    }
+
+    .hero-div {
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: var(--text-h3);
+    }
+
+    .hero-title span {
+        font-size: var(--text-h3);
+    }
+
+    .hero-div h2 {
+        font-size: var(--text-base);
+        font-weight: var(--font-weight-normal);
+        letter-spacing: var(--letter-spacing-wide);
+    }
+
+    .hero-buttons {
+        margin-top: 2rem;
+        align-items: center;
+        font-size: var(--text-base);
+        justify-content: center;
+    }
+      
+
+    .about-section-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    h2 {
+        font-size: var(--text-h4);
+    }
+      
+    .about-image-card {
+        width: 95%;
+    }
+
+    .about-body {
+        width: 95%;
+        height: auto;
+        min-height: 50px;
+    }
+    
+    /* ----- Resume section ----- */
+    .resume-section {
+        margin-bottom: 5rem;
+        height: 228vh;
+    }
+      
+    .resume-section h2 {
+        margin-bottom: 25px;
+    }
+      
+    .resume-section-div {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }     
+}
+
+
+@media (max-width: 480px) {
+    .btn {
+        padding: 0.4rem 1rem;
+        font-size: var(--text-sm);
+    }
+
+    .hero-buttons {
+        gap: 1rem;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    .hero-icons {
+        position: absolute;
+        bottom: 2rem;
+        left: -3rem;
+    }
+
+    .hero-icons-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      
+      
+    .resume-section {
+        margin-bottom: 5rem;
+    }
+      
+    .resume-card ul {
+        font-size: 1.19rem;
+    }   
+    
+    .contact-section {
+        min-height: 40vh;
+        padding: 1rem 1rem;
+    }
+
+    .contact-container {
+        width: 90%;
+        padding: 2rem 1.5rem;
+    }
+  
+    .contact-list li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+  
+    .contact-label,
+    .contact-value {
+        text-align: left;
+        flex: none;
+    }
+    
+    .contact-section p {
+        font-size: 1.1rem;
+    }
+  
+    .contact-list li {
+        font-size: 1.3rem;
+        line-height: 2;
+    }
+  }
