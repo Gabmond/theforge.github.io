@@ -130,7 +130,7 @@
 
 @media (max-width: 480px) {
     .hero-section-div {
-        height: 80vh;
+        height: 60vh;
         min-height: 400px;
         display: flex;
         flex-direction: column;
@@ -211,5 +211,6 @@
         line-height: 2;
     }
   }
+
 
 
