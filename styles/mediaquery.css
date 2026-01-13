@@ -129,11 +129,16 @@
 
 
 @media (max-width: 480px) {
+    .hero-section {
+        background-position-x: 1px;
+        background-size: cover;
+    }
+
     .hero-section-div {
-        height: 60vh;
+        height: 90vh;
         min-height: 200px;
     }
-    
+      
     .btn {
         padding: 0.4rem 1rem;
         font-size: var(--text-sm);
@@ -207,7 +212,3 @@
         line-height: 2;
     }
   }
-
-
-
-
