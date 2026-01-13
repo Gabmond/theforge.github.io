@@ -136,7 +136,7 @@
 
     .hero-section-div {
         height: 100vh;
-        min-height: 350px;
+        min-height: 300px;
     }
       
     .btn {
@@ -212,5 +212,3 @@
         line-height: 2;
     }
   }
-
-
