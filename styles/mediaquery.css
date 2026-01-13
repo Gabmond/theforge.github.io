@@ -1,11 +1,11 @@
 @media (max-width: 900px) {
-    .hero-section {
+    /* .hero-section {
         margin-bottom: 5rem;
-    }
+    } */
 
-    .about-section {
+    /* .about-section {
         margin-bottom: 5rem;
-    }
+    } */
 
     .about-section h2 {
         margin-bottom: 20px;
@@ -29,10 +29,10 @@
         font-size: 1.1rem;
     }
 
-    .resume-section {
+    /* .resume-section {
         margin-bottom: 5rem;
         height: 128vh;
-    }
+    } */
 }
 
 @media (max-width: 760px) {
@@ -50,10 +50,8 @@
         align-items: center;
         gap: 5rem;
         padding: 2rem 0;
-    
-        /* hidden by default */
         display: none;
-      }
+    }
     
       .my-navbar-list.active {
         display: flex;
@@ -116,8 +114,7 @@
     
     /* ----- Resume section ----- */
     .resume-section {
-        margin-bottom: 5rem;
-        height: 228vh;
+        height: 100vh;
     }
       
     .resume-section h2 {
@@ -156,9 +153,12 @@
       }
       
       
-    .resume-section {
-        height: 120vh;
+    /* .resume-section {
         margin-bottom: 5rem;
+    } */
+
+    .resume-section-div {
+        height: 26vh;
     }
       
     .resume-card ul {
