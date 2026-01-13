@@ -131,11 +131,7 @@
 @media (max-width: 480px) {
     .hero-section-div {
         height: 60vh;
-        min-height: 400px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: relative;
+        min-height: 200px;
     }
     
     .btn {
@@ -211,6 +207,7 @@
         line-height: 2;
     }
   }
+
 
 
 
