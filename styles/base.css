@@ -282,7 +282,7 @@ a:hover, a:active {
 .resume-section {
   scroll-margin-top: var(--navbar-height);
   /* margin-bottom: 15rem; */
-  min-height: 130vh;
+  min-height: 100vh;
   padding: 4rem 1rem;
 }
 
@@ -318,11 +318,10 @@ a:hover, a:active {
 .contact-section {
   scroll-margin-top: var(--navbar-height);
   min-height: 100vh;
-  /* background-color: rgba(255, 255, 255, 0.03); */
-  padding: 6rem 1rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
