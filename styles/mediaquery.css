@@ -114,7 +114,7 @@
     
     /* ----- Resume section ----- */
     .resume-section {
-        height: 100vh;
+        min-height: 140vh;
     }
       
     .resume-section h2 {
@@ -167,9 +167,13 @@
         margin-bottom: 5rem;
     } */
 
-    .resume-section-div {
-        height: 26vh;
+    .resume-section {
+        min-height: 100vh;
     }
+
+    /* .resume-section-div {
+        height: 26vh;
+    } */
     
     .resume-card {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -182,7 +186,7 @@
     }   
     
     .contact-section {
-        min-height: 40vh;
+        min-height: 80vh;
         padding: 1rem 1rem;
     }
 
