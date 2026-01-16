@@ -129,6 +129,15 @@
 
 
 @media (max-width: 480px) {
+    .my-navbar {
+        height: 40px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .my-navbar-brand {
+        font-size: var(--text-sm);
+    }
+
     .hero-section {
         background-position-x: 1px;
         background-size: cover;
