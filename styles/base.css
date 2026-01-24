@@ -216,9 +216,7 @@ a:hover, a:active {
   display: flex;
   align-items: stretch;
   flex-direction: column;
-  /* gap: 32px; */
-  /* margin-bottom: 10rem; */
-  min-height: 20vh;
+  margin-bottom: 5rem;
   padding: 4rem 1rem;
 }
 
@@ -229,8 +227,10 @@ a:hover, a:active {
 
 .about-section-card {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  /* gap: 70px; */
+  background-color: var(--none);
+  gap: 40px;
   /* box-shadow: 4px 4px 20px 7px #0e0e0e; */
 }
 
@@ -253,7 +253,10 @@ a:hover, a:active {
 .about-body {
   width: 40%;
   /* flex: 0 0 400px; */
+  color: var(--grey-tint);
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   gap: 15px;
 }
 
@@ -281,9 +284,9 @@ a:hover, a:active {
 /* ----- Resume section ----- */
 .resume-section {
   scroll-margin-top: var(--navbar-height);
-  /* margin-bottom: 15rem; */
-  min-height: 100vh;
+  background-color: var(--none);
   padding: 4rem 1rem;
+  margin-bottom: 5rem;
 }
 
 .resume-section h2 {
@@ -294,7 +297,6 @@ a:hover, a:active {
 .resume-section-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 56vh;
   gap: 32px;
 }
 
@@ -317,9 +319,9 @@ a:hover, a:active {
 /* ----- Contact Section ----- */
 .contact-section {
   scroll-margin-top: var(--navbar-height);
-  min-height: 100vh;
   background-color: rgba(255, 255, 255, 0.03);
   padding: 3rem 1rem;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
