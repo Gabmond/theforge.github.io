@@ -148,6 +148,10 @@
         flex-direction: row;
         justify-content: space-between;
     }  
+
+    .project-cards img {
+        width: 260px;
+    }
       
     /* .resume-section {
         margin-bottom: 5rem;
