@@ -216,7 +216,7 @@ a:hover, a:active {
   display: flex;
   align-items: stretch;
   flex-direction: column;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   padding: 4rem 1rem;
 }
 
