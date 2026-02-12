@@ -279,6 +279,35 @@ a:hover, a:active {
   object-position: top;
 }
 
+/* ----- Project section ----- */
+
+.projects-section {
+  scroll-margin-top: var(--navbar-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 1rem
+}
+
+.project ul {
+  margin: 0;
+  padding: 0;
+}
+
+.project p {
+  padding-bottom: 20px;
+}
+
+.project-cards img {
+  width: 300px;
+}
+
+.project h2 {
+  margin-bottom: 5rem;
+}
+
 
 /* ----- Resume section ----- */
 .resume-section {
