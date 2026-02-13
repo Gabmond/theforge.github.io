@@ -2,7 +2,6 @@ const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".navButton");
 const navToggle = document.querySelector('.nav-toggle');
 const navList = document.querySelector('.my-navbar-list');
-const navbar = document.querySelector('.my-navbar');
 
 window.addEventListener("scroll", () => {
   let currentSection = "";
@@ -23,6 +22,23 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+
+const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+      });
+    }, {})
+  const animationElements = document.querySelectorAll(".animation");
+  animationElements.forEach((el) => {
+  observer.observe(el);
+});
+
+
 
 navToggle.addEventListener('click', () => {
   navList.classList.toggle('active');
