@@ -60,6 +60,18 @@ a:hover, a:active {
   font-weight: var(--font-weight-bold);
 }
 
+/* ---------------------- ANIMATION -------------------- */
+
+.animation {
+  opacity: 0;
+  translate: -50%;
+  transition: translate 1s ease-in-out, opacity 1.5s ease;
+}
+
+.animation.show {
+  opacity: 1;
+  translate: 0;
+}
 
 /* ---------------------- COMPONENTS -------------------- */
 .btn {
