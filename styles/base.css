@@ -8,6 +8,29 @@ html {
   font-size: 62.5%;
 }
 
+::-webkit-scrollbar {
+  width:5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  background-color: var(--secondary-shade);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-shade);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-base);
+}
+
+::selection {
+  background-color: var(--secondary-base);
+  color: var(--white);
+}
+
 body {
   margin: 0;
   font-family: var(--font-family);
