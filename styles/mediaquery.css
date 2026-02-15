@@ -120,10 +120,6 @@
         background-position-x: 1px;
         background-size: cover;
     }
-
-    .hero-section-div {
-        min-height: 370px;
-    }
       
     .btn {
         padding: 0.4rem 1rem;
@@ -135,10 +131,10 @@
         margin-top: 2rem;
     }
 
-    /* .hero-icons {
+    .hero-icons {
         position: absolute;
         bottom: 6rem;
-    } */
+    }
 
     .hero-icons-list {
         display: flex;
