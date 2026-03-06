@@ -83,19 +83,6 @@ a:hover, a:active {
   font-weight: var(--font-weight-bold);
 }
 
-/* ---------------------- ANIMATION -------------------- */
-
-.animation {
-  opacity: 0;
-  translate: -50%;
-  transition: translate 0.8s ease-in-out, opacity 1.5s ease;
-}
-
-.animation.show {
-  opacity: 1;
-  translate: 0;
-}
-
 /* ---------------------- COMPONENTS -------------------- */
 .btns {
   padding: 1.2rem 2.4rem;
@@ -457,3 +444,4 @@ a:hover, a:active {
   color: var(--primary-shade);
   transform: translateX(3px);
 }
+
